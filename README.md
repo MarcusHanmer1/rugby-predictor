@@ -73,7 +73,7 @@ The `XGBoost` model confirmed our feature engineering was successful. The `ranki
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/MarcusHanmer1/rugby-predictor.git](https://github.com/MarcusHanmer1/rugby-predictor.git)
+    git clone https://github.com/MarcusHanmer1/rugby-predictor.git
     cd rugby-predictor
     ```
 
