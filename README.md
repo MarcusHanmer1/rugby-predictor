@@ -56,7 +56,7 @@ The RWC simulator includes tier 2 teams that were not in our tier 1 training dat
 * **Solution:** I made is so the app detects these teams, catches the `IndexError`, and imputes a default tier 2 profile (a realistic 65.0 ranking points, 50% form etc). This prevents the app from crashing and allows for a full, realistic simulation.
 
 
-### 📊 Model benchmarking: XGBoost vs LSTM
+### Model benchmarking: XGBoost vs LSTM
 
 I benchmarked `XGBoost` against a custom-built `LSTM` neural network on a 20% future test set (289 matches). The LSTM was the clear champion.
 
